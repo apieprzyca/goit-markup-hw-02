@@ -1,41 +1,59 @@
 <!DOCTYPE html>
 <html lang="pl">
   <head>
-    <link rel="preconnect" href="https://fonts.googleapis.com" />
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
-    <link
-      href="https://fonts.googleapis.com/css2?family=Raleway:wght@700&display=swap"
-      rel="stylesheet"
-    />
-    <link rel="preconnect" href="https://fonts.googleapis.com" />
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
-    <link
-      href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;500;700;900&display=swap"
-      rel="stylesheet"
-    />
     <title>Studio</title>
-    <link rel="stylesheet" href="css/index.css" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Raleway:wght@700&family=Roboto:wght@400;500;700;900&display=swap"
+      rel="stylesheet"
+    />
+
+    <link rel="stylesheet" href="css/styles.css" />
+    <style>
+      body {
+        font-family: "Roboto", sans-serif;
+        color: #212121;
+        background: #e5e5e5;
+      }
+    </style>
   </head>
+
   <body>
     <header>
-      <a class="header-title" href="#"><span>Web</span>Studio</a>
+      <a class="header-title" href="#"
+        ><span class="header-title-web">Web</span>Studio</a
+      >
       <nav>
         <menu>
           <li class="menu-list"><a href="#">Agencja</a></li>
-          <li class="menu-list"><a href="./portfolio.html">Portfolio</a></li>
+          <li class="menu-list-blue">
+            <a href="./portfolio.html">Portfolio</a>
+          </li>
           <li class="menu-list"><a href="#">Kontakt</a></li>
         </menu>
       </nav>
-      <a class="contact-data" href="mailto:info@devstudio.com"
-        >info@devstudio.com</a
-      >
-      <a class="contact-data" href="tel:+48111111111"> +48 111 111 111 </a>
+      <ul class="contact">
+        <li>
+          <a class="contact-data-mail" href="mailto:info@devstudio.com"
+            >info@devstudio.com</a
+          >
+        </li>
+        <li>
+          <a class="contact-data-phone-number" href="tel:+48111111111">
+            +48 111 111 111
+          </a>
+        </li>
+      </ul>
     </header>
     <main>
-      <h1>EFEKTYWNE ROZWIĄZANIA DLA WASZEGO BIZNESU</h1>
-      <button class="button" type="button">Zamów usługę</button>
-      <div>
-        <ul>
+      <section class="header-place">
+        <h1>EFEKTYWNE ROZWIĄZANIA DLA WASZEGO BIZNESU</h1>
+        <button class="button" type="button">Zamów usługę</button>
+      </section>
+
+      <div class="paragraph">
+        <ul class="paragraph-list">
           <li>
             <h3 class="paragraph-title">LOREM IPSUM</h3>
             <p class="paragraph-content">
@@ -68,9 +86,9 @@
           </li>
         </ul>
       </div>
-      <div>
-        <h2 class="section-title">Czym się zajmujemy</h2>
-        <ul>
+      <div class="our-goals">
+        <h2 class="goals-title">Czym się zajmujemy</h2>
+        <ul class="goals-list">
           <li>
             <img
               src="./images/img1.jpg"
@@ -97,9 +115,9 @@
           </li>
         </ul>
       </div>
-      <div>
+      <div class="our-team">
         <h2 class="section-title">Nasz zespół</h2>
-        <ul>
+        <ul class="team-list">
           <li>
             <figure>
               <img
@@ -152,12 +170,14 @@
       </div>
     </main>
     <footer>
-      <a class="header-title" href="#"><span>Web</span>Studio</a>
+      <p class="header-title-footer">
+        <span class="header-title-web">Web</span>Studio
+      </p>
       <address>m. Warszawa, Aleje Jerozolimskie 21</address>
-      <a class="contact-links" href="mailto:info@devstudio.com"
+      <a class="contact-links-mail" href="mailto:info@devstudio.com"
         >info@devstudio.com</a
       >
-      <a class="contact-links" href="tel+48111111111">+48 111 111 111</a>
+      <a class="contact-links-phone" href="tel+48111111111">+48 111 111 111</a>
     </footer>
   </body>
 </html>
