@@ -12,6 +12,7 @@ header {
   font-weight: 700;
   line-height: 1, 19;
   color: #000000;
+  text-decoration: none;
 }
 
 .header-title-web {
@@ -37,8 +38,37 @@ menu,
   color: #212121;
 }
 .button:focus,
-.button:hover {
+.button:hover,
+.button:active {
   cursor: pointer;
+  text-decoration: underline #2196f3;
+}
+.header-title:focus,
+.header-title:hover {
+  cursor: pointer;
+}
+.menu-list:focus,
+.menu-list:hover {
+  cursor: pointer;
+}
+.menu-list-blue,
+.menu-list-blue {
+  cursor: pointer;
+}
+.contact-data-mail:focus.contact-data-mail:hover {
+  cursor: pointer;
+}
+.contact-data-phone-number:focus .contact-data-phone-number:hover {
+  cursor: pointer;
+}
+.contact-links-mail:focus,
+.contact-links-mail:hover {
+  cursor: pointer;
+}
+a:hover,
+a.focus {
+  color: navy;
+  text-decoration: none;
 }
 
 .menu-list a {
@@ -255,6 +285,7 @@ address {
   background-color: #2196f3;
   color: rgb(236, 238, 240);
   border-radius: 2px;
+  text-decoration: underline #2196f3;
 }
 .button2 .link {
   background-color: #f5f4fa;
