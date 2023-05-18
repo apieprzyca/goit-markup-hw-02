@@ -31,12 +31,14 @@ menu,
 .contact {
   display: inline;
 }
-.menu-list .link:focus {
+.menu-list a:focus,
+.menu-list a:hover,
+.menu-list a:active {
   color: #2196f3;
+  cursor: pointer;
+  text-decoration: none #2196f3;
 }
-.menu-list-blue .link:focus {
-  color: #212121;
-}
+
 .button:focus,
 .button:hover,
 .button:active {
@@ -47,14 +49,7 @@ menu,
 .header-title:hover {
   cursor: pointer;
 }
-.menu-list:focus,
-.menu-list:hover {
-  cursor: pointer;
-}
-.menu-list-blue,
-.menu-list-blue {
-  cursor: pointer;
-}
+
 .contact-data-mail:focus.contact-data-mail:hover {
   cursor: pointer;
 }
@@ -67,7 +62,7 @@ menu,
 }
 a:hover,
 a.focus {
-  color: navy;
+  color: #2196f3;
   text-decoration: none;
 }
 
@@ -77,12 +72,7 @@ a.focus {
   color: #212121;
   text-decoration: none;
 }
-.menu-list-blue a {
-  font-weight: 500;
-  font-size: 14px;
-  color: #2196f3;
-  text-decoration: none;
-}
+
 .contact-data-mail {
   font-weight: 500;
   font-size: 14px;
